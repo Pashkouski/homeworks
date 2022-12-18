@@ -55,6 +55,8 @@ function HW2() {
         setAffairs(affairs.filter(el => el._id !== _id))
     }
 
+
+
     return (
         <div id={'hw2'}>
             <div className={s2.hwTitle}>Homework #2</div>
