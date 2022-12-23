@@ -15,12 +15,12 @@
     border: none;
     padding: 0 30px;
     resize: none;
-    /*overflow: hidden;*/
+    overflow: hidden;
 
 }
 
 .button {
-    position: relative;
+    position: absolute;
     padding: 5px 24px;
     background: #0066CC;
     border-radius: 20px;
