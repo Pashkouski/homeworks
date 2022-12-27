@@ -1,17 +1,29 @@
 .button {
-}
 
-.disabled {
-}
-
-.secondary {
 }
 
 .default {
+background-color: #00cc22;
 }
 
 .red {
+    background-color: #cc0000;
 }
+
+.disabled {
+    background-color: #00cc22;
+}
+
+.secondary {
+    background-color: aqua;
+}
+
+
+
+
+
+
+
 
 .default:hover {
 }
@@ -24,6 +36,7 @@
 
 
 .default:active {
+
 }
 
 .secondary:active {
