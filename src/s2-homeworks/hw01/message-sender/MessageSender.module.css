@@ -20,7 +20,7 @@
 }
 
 .button {
-    position: absolute;
+    position: relative;
     padding: 5px 24px;
     background: #0066CC;
     border-radius: 20px;
