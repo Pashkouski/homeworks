@@ -20,7 +20,6 @@ const HW6 = () => {
         saveState<string>('hw6-editable-span-value', value)
     }
     const restore = () => {
-        // ЗАСЕТАТЬ(restoreState<ТИПИЗАЦИЯ>(КЛЮЧ,''))
 
         setValue(restoreState<string>('hw6-editable-span-value', ''))
     }
