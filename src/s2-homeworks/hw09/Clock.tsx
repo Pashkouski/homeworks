@@ -46,8 +46,6 @@ function Clock() {
     const stringTime = `${getZerro(date.getHours())}:${getZerro(date.getMinutes())}:${getZerro(date.getSeconds())}` ||
         <br/>
 
-    console.log(date.getDay())
-
     const stringDate = `${date.toLocaleDateString('eng', {weekday: "long"})}` || <br/>
     const stringDay = `${date.toLocaleDateString('eng', {weekday: "long"})}` || <br/>
     const stringMonth = `${date.toLocaleDateString('eng', {day: "2-digit", month: "2-digit", year: "2-digit"})}` || <br/>
