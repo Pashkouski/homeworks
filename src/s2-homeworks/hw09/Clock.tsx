@@ -45,8 +45,11 @@ function Clock() {
 
     const stringTime = `${getZerro(date.getHours())}:${getZerro(date.getMinutes())}:${getZerro(date.getSeconds())}` ||
         <br/>
-    const stringDate = `${date.toLocaleDateString('eng', {day: "2-digit", month: "2-digit", year: "2-digit"})}` || <br/>
+
+    const stringDate = `${date.toLocaleDateString('eng', {month: "2-digit"})}.${getZerro(date.getUTCDate())}.${date.toLocaleDateString(undefined, {year: "numeric"})}` || <br/>
+
     const stringDay = `${date.toLocaleDateString('eng', {weekday: "long"})}` || <br/>
+
     const stringMonth = `${date.toLocaleDateString('eng', {month: "long"})}` || <br/>
 
 
