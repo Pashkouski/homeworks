@@ -1,11 +1,36 @@
+@font-face {
+    font-family:Montserrat ;
+    src: url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+}
+
+
 .spanBlock {
+    width: 276px;
+    height: 36px;
 }
 
 .span {
+    color: #0080FF;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+
 }
 
 .input {
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    width: 276px;
+    height: 36px;
 }
 
 .pen {
+    width: 16px;
+    height: 16px;
+    margin-right: 16px;
+
 }

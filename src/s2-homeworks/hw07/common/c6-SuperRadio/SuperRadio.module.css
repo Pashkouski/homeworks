@@ -1,15 +1,45 @@
+@font-face {
+    font-family:Montserrat ;
+    src: url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+}
+
 .radio {
+    margin-right: 11px;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    color: black;
+
 }
 
 .radio::before {
+    background-color: black;
+    color: black;
+
 }
 
 
 .radio:checked::before {
+    background-color: black;
+    color: black;
+
+
 }
 
 .label {
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
 }
 
 .options {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 127px;
 }

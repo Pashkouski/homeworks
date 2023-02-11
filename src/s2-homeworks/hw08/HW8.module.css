@@ -1,23 +1,65 @@
+@font-face {
+    font-family:Roboto ;
+    src: url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+}
+
 .item {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+
+
+
+    /*color: #cc0000;*/
 }
 
 .item:last-of-type {
+
+    /*color: #cc0000;*/
+    border-bottom: none;
 }
 
 .users {
+    margin-top: 18px;
+    width: 606px;
+    height: 36px;
+
 }
 
 .buttonsContainer {
+    margin-top: 30px;
+    margin-left: 160px;
 }
 
 .container {
+    margin-left: 70px;
 }
 
 .thead {
+    background: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    height: 36px;
+
+    color: #000000;
+
+
 }
 
 .nameCol {
+    padding-left: 17px;
+    border-bottom: 1px solid #E5E5E5;
+
+
 }
 
 .ageCol {
+    padding: 0px;
+
+
 }
