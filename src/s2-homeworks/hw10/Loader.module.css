@@ -1,3 +1,32 @@
 .loader {
-    /*свг и/или анимация*/
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 10px;
+    top: 10px;
+    background-color: black;
+   }
+
+
+@keyframes loader {
+
+    0% {
+        background: conic-gradient(from 90deg at 50% 50%, rgba(255, 255, 255, 0) 0deg, #512DE4 360deg);
+        border-radius: 1px;
+    }
+    25% {
+        background: conic-gradient(from 90deg at 50% 50%, rgba(255, 255, 255, 0) 0deg, #512DE4 360deg);
+        border-radius: 1px;
+        transform: rotate(90deg);
+    }
+    50% {
+        background: conic-gradient(from 90deg at 50% 50%, rgba(255, 255, 255, 0) 0deg, #512DE4 360deg);
+        border-radius: 1px;
+        transform: rotate(-180deg);
+    }
+    100% {
+        background: conic-gradient(from 90deg at 50% 50%, rgba(255, 255, 255, 0) 0deg, #512DE4 360deg);
+        border-radius: 1px;
+        transform: rotate(-90deg);
+    }
 }
