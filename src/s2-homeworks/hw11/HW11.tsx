@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import s from './HW11.module.css'
 import s2 from '../../s1-main/App.module.css'
 import {restoreState, saveState} from '../hw06/localStorage/localStorage'
@@ -15,17 +15,17 @@ function HW11() {
     const [value1, setValue1] = useState(restoreState<number>('hw11-value1', 0))
     const [value2, setValue2] = useState(restoreState<number>('hw11-value2', 77))
 
+
     const change = (event: Event, value: number | number[]) => {
         if (Array.isArray(value)) {
             saveState('hw11-value1', value[0])
-            saveState('hw11-value2', [value[0], value[1]])
+            saveState('hw11-value2', value[1])
             setValue1(restoreState('hw11-value1', value[0]))
             setValue2(restoreState('hw11-value2', value[1]))
         } else {
             saveState('hw11-value1', value)
-            // saveState('hw11-value2', [value, value2[1]])
-            setValue1(restoreState('hw11-value1', 0))
-          //  setValue2(restoreState('hw11-value2', [value, value2[1]]))
+            saveState('hw11-value2', value)
+            setValue1(restoreState('hw11-value1', value))
         }
 
         // пишет студент // если пришёл массив - сохранить значения в оба useState, иначе в первый
