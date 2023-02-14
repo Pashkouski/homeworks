@@ -13,16 +13,19 @@ import SuperRange from './common/c7-SuperRange/SuperRange'
 function HW11() {
     // for autotests // не менять // можно подсунуть в локалСторэдж нужные числа, чтоб увидеть как они отображаются
     const [value1, setValue1] = useState(restoreState<number>('hw11-value1', 0))
-    const [value2, setValue2] = useState(restoreState<number>('hw11-value2', 100))
+    const [value2, setValue2] = useState(restoreState<number[]>('hw11-value2', [value1, 77]))
 
     const change = (event: Event, value: number | number[]) => {
         if (Array.isArray(value)) {
-            saveState('hw11-value2', value)
-            setValue1(restoreState('hw11-value2', value[0]))
-            setValue2(restoreState('hw11-value2', value[1]))
+            saveState('hw11-value1', value[0])
+            saveState('hw11-value2', [value[0], value[1]])
+            setValue1(restoreState('hw11-value1', value[0]))
+            setValue2(restoreState('hw11-value2', [value1, value[1]]))
         } else {
             saveState('hw11-value1', value)
+            saveState('hw11-value2', [value, value2[1]])
             setValue1(restoreState('hw11-value1', 0))
+            setValue2(restoreState('hw11-value2', [value, value2[1]]))
         }
 
         // пишет студент // если пришёл массив - сохранить значения в оба useState, иначе в первый
@@ -51,7 +54,7 @@ function HW11() {
                             value={value2}
                             onChange={change}
                         />
-                        <span id={'hw11-value-2'} className={s.number}>{value2}</span>
+                        <span id={'hw11-value-2'} className={s.number}>{value2[1]}</span>
                     </div>
                 </div>
             </div>
