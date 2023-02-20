@@ -6,7 +6,6 @@
 .select {
     width: 165px;
     height: 24px;
-
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -21,11 +20,8 @@
 }
 
 .select:focus {
-    /*cursor: pointer;*/
 
-
-
-}s
+}
 
 
  .option:hover {
