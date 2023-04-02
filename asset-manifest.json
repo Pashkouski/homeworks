@@ -1,9 +1,13 @@
 {
   "files": {
     "main.css": "/homeworks/static/css/main.aead0bf1.css",
-    "main.js": "/homeworks/static/js/main.c0363d7b.js",
+    "main.js": "/homeworks/static/js/main.09e0ce72.js",
     "static/js/787.66cb4309.chunk.js": "/homeworks/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/homeworks/static/media/avatar.d947cb9d0d13765666b6.png",
+    "static/media/200.svg": "/homeworks/static/media/200.96248f7df0dde10e0a82ac30418f50bc.svg",
+    "static/media/error.svg": "/homeworks/static/media/error.5a3135f381b00b53044eff200e725391.svg",
+    "static/media/500.svg": "/homeworks/static/media/500.adbc5f265f6f3c1fb9c5633ffe365afa.svg",
+    "static/media/400.svg": "/homeworks/static/media/400.8baa1b795048b6fa13ff8d30800aa1b1.svg",
     "static/media/404.svg": "/homeworks/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
     "static/media/closeOutline.svg": "/homeworks/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
     "static/media/editIcon.svg": "/homeworks/static/media/editIcon.0a0cefd2190b593b4f76bb1a5afe0c1f.svg",
@@ -11,11 +15,11 @@
     "index.html": "/homeworks/index.html",
     "static/media/burger.svg": "/homeworks/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
     "main.aead0bf1.css.map": "/homeworks/static/css/main.aead0bf1.css.map",
-    "main.c0363d7b.js.map": "/homeworks/static/js/main.c0363d7b.js.map",
+    "main.09e0ce72.js.map": "/homeworks/static/js/main.09e0ce72.js.map",
     "787.66cb4309.chunk.js.map": "/homeworks/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aead0bf1.css",
-    "static/js/main.c0363d7b.js"
+    "static/js/main.09e0ce72.js"
   ]
 }
